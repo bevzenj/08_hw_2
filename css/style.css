@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background: #e2e7ec;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:hover {
+    border-bottom: 1px solid #818181;
+}
+
+.container {
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_post {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 10px;
+    color: #ffffff;
+    width: 740px;
+    height: 540px;
+    background: url("../image/Car_juke.png");
+    box-shadow: 4px -143px 144px 58px rgba(0,0,0,0.91) inset;
+}
+
+.main_post > h2 {
+    width: 60%;
+    font-size: 30px;
+}
+
+.post {
+    margin: 10px;
+    width: 360px;
+    background: #ffffff;
+}
+
+.post_img {
+    margin-bottom: 20px;
+}
+
+.post_date {
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #818181;
+    padding: 0 20px;
+}
+
+.post_title {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.post_author {
+    margin: 50px 20px 20px;
+}
+
